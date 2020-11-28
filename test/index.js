@@ -3,6 +3,7 @@ import sumOfDigits from '../src/index';
 
 const testSamples = [
   { input: 'null', expectedResult: null, description: 'Should not accept null' },
+  { input: undefined, expectedResult: null, description: 'Should not accept undefined' },
   { input: 'abc', expectedResult: null, description: 'Should not accept a non-integer' },
   { input: -10, expectedResult: null, description: 'Should not accept a negative integer' },
   { input: 78, expectedResult: 15, description: 'Should return 15 = (7 + 8)' },

@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- node
+before_deploy:
+- npm run build
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: kavinvalli@gmail.com
+  api_key:
+    secure: AXb4Kge68boOfXOaJkDAL84S6ghTwTF/EUA4Gj/Ai3unP24yaSPbNAylB+ccOfrhclwG6y+tmcVG+BS09v7bN+Zn7+pytrySCXt7Gqib+iibEAcHBxbHP/tlwaI2sgVpmIfpEUY3yIIxxR7hbF4Wo0qbUg1N73AOx57mu8uKoFJ9/XLV23MOyAvM8qOvh7l9mkGHzwjREl7vQvw5ChMpu7ONgThLzWlzZjXUc4rXvFNC3zPMS/kvQX+MixYur75AEIvI5dmrq7SqkqdHDbltN5+fP+zKyW1dwr5V+DDRphIv7D4dAhSjnZw0O446TpyoQAvxGz3TPKzsjrYPQVgHu/CXklxw+k+ke16CYGHEeji+GkpeWVGGRBK5v6ncVtU5bxmwiIa2eLyEoh/frIMJR1736LM/j3ZNjtoO7C8K/UdRH7YpBzJZKOTd7yMEaRsOiHSw383CDFh7ia4d4HRDAPmYF6KFcxM//pR7ZI5Zrqmr/+pd42gH6aXYqaq+1EyXHsKgkd0atYAE6nKV0vSc8MQkFr6TNitB3gj6Nbp4S0/3OVEmKDqPghQkdye2KGyfHOjZg6FqNEVEWCfghKo6oYrsj3o/h5NoUVyY1d8NVgXtmOf5i//9khrQT4+q/wdyIbkZjHi8nZKUqviGwy6OdcMlhjEFjwynxaVR4UwlvZE=
+  on:
+    tags: true
+    repo: kavin25/sum-of-digits
+    branch: main
+  skip_cleanup: 'true'
