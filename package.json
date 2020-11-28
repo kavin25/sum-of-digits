@@ -1,0 +1,27 @@
+{
+  "name": "sum-of-digits",
+  "version": "0.0.1",
+  "description": "A package to find out sum of the digits of a number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavin25/sum-of-digits.git"
+  },
+  "keywords": [
+		"npm",
+		"node",
+		"sum",
+		"maths",
+		"digits",
+		"javascript"
+	],
+  "author": "Kavin Desi Valli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kavin25/sum-of-digits/issues"
+  },
+  "homepage": "https://github.com/kavin25/sum-of-digits#readme"
+}
