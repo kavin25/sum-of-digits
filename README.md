@@ -3,5 +3,5 @@
 A package to find the sum of digits of a number
 
 ```js
-sumOfDigits(31)
+sumOfDigits(31);
 ```
