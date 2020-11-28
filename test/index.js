@@ -5,6 +5,7 @@ const testSamples = [
   { input: 'null', expectedResult: null, description: 'Should not accept null' },
   { input: undefined, expectedResult: null, description: 'Should not accept undefined' },
   { input: 'abc', expectedResult: null, description: 'Should not accept a non-integer' },
+  { input: true, expectedResult: null, description: 'Should not accept a boolean' },
   { input: -10, expectedResult: null, description: 'Should not accept a negative integer' },
   { input: 78, expectedResult: 15, description: 'Should return 15 = (7 + 8)' },
   { input: 198, expectedResult: 18, description: 'Should return 18 = (1 + 9 + 8)' },
