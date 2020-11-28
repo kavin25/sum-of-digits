@@ -4,24 +4,28 @@
   "description": "A package to find out sum of the digits of a number",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+		"build": "babel ./src -d ./lib"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kavin25/sum-of-digits.git"
   },
   "keywords": [
-		"npm",
-		"node",
-		"sum",
-		"maths",
-		"digits",
-		"javascript"
-	],
+    "npm",
+    "node",
+    "sum",
+    "maths",
+    "digits",
+    "javascript"
+  ],
   "author": "Kavin Desi Valli",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kavin25/sum-of-digits/issues"
   },
-  "homepage": "https://github.com/kavin25/sum-of-digits#readme"
+  "homepage": "https://github.com/kavin25/sum-of-digits#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
