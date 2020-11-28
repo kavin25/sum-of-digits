@@ -1,3 +1,0 @@
-#+title: Sum of Digits
-
-A package to find out sum of the digits of a number
