@@ -4,7 +4,8 @@
   "description": "A package to find out sum of the digits of a number",
   "main": "index.js",
   "scripts": {
-		"build": "babel ./src -d ./lib"
+    "build": "babel ./src -d ./lib",
+    "lint": "eslint ./src"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,9 @@
   "homepage": "https://github.com/kavin25/sum-of-digits#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   }
 }
