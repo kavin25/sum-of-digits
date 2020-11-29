@@ -28,7 +28,8 @@
   },
   "homepage": "https://github.com/kavin25/sum-of-digits#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
     "babel-preset-env": "^1.7.0",
     "eslint": "^7.14.0",
     "eslint-config-airbnb-base": "^14.2.1",
@@ -41,5 +42,8 @@
       "lcov",
       "text"
     ]
+  },
+  "dependencies": {
+    "@babel/cli": "^7.12.8"
   }
 }
