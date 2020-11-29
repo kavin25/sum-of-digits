@@ -1,4 +1,4 @@
-const sum = (digits) => {
+function sum(digits) {
   let answer = 0;
   // eslint-disable-next-line no-plusplus
   for (let i = 0; i < digits.length; i++) {
@@ -8,7 +8,7 @@ const sum = (digits) => {
   return answer;
 };
 
-const sumOfDigits = (number) => {
+function sumOfDigits(number) {
   if (!Number.isInteger(number)) return null;
   if (number < 0) return null;
   // eslint-disable-next-line prefer-const
