@@ -2,7 +2,7 @@
   "name": "sum-of-digits",
   "version": "0.0.5",
   "description": "A package to find out sum of the digits of a number",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "babel ./src -d ./lib",
     "lint": "eslint ./src",
